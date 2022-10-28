@@ -6,7 +6,7 @@ import azure.functions as func
 def main(req: func.HttpRequest)->func.HttpResponse:
     logging.info('Triggered Get Employee python function.')
     dbconString=""
-    cnxn_str = ("Driver={SQL Server Native Client 11.0};"
+    cnxn_str = ("Driver={ODBC Driver 17 for SQL Server};"
             "Server=rewardsdbserver.database.windows.net;"
             "Database=rewardsdbindia;"
             "UID=rwadmin;"
