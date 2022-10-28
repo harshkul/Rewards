@@ -5,8 +5,8 @@
       "authLevel": "anonymous",
       "type": "httpTrigger",
       "direction": "in",
-      "route": "Employees/{id:int}",
       "name": "req",
+      "route": "Employees",
       "methods": [
         "get"
       ]
